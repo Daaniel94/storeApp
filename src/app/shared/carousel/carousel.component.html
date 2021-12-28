@@ -1,0 +1,23 @@
+<p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+    <ng-template pTemplate="header">
+        <h2 class="center text-layout">Lo más popular</h2>
+    </ng-template>
+    <ng-template let-product pTemplate="item">
+        <div class="product-item">
+            <div class="product-item-content">
+                <div class="mb-3">
+                    <img src="{{product.image}}" [alt]="product.title" class="product-image" />
+                </div>
+                <div>
+                    <h4 class="mb-1 text-layout">{{product.title}}</h4>
+                    <h5 class="mt-10 mb-3 text-layout">${{product.price}}</h5>
+                    <p-badge class="mt-5" value="★{{product.rating.rate}}" severity="warning" icon="pi pi-users"></p-badge>
+                    <div class="car-buttons mt-5 abajo">
+                        <p-button type="button" styleClass="p-button p-button-rounded mr-2" icon="pi pi-eye"></p-button>
+                        <p-button type="button" styleClass="p-button-success p-button-rounded mr-2" icon="pi pi-shopping-cart"></p-button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>
