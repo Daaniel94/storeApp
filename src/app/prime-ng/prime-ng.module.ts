@@ -9,6 +9,8 @@ import {BadgeModule} from 'primeng/badge';
 import {ButtonModule} from 'primeng/button';
 import {InputTextModule} from 'primeng/inputtext';
 import {PasswordModule} from 'primeng/password';
+import {MessagesModule} from 'primeng/messages';
+import {MessageModule} from 'primeng/message';
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import {PasswordModule} from 'primeng/password';
     CarouselModule,
     CommonModule,
     InputTextModule,
+    MessageModule,
+    MessagesModule,
     PasswordModule,
     TabMenuModule
   ]

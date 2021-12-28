@@ -23,7 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     CommonModule,
     FormsModule,
     PrimeNgModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class StoreModule { }
