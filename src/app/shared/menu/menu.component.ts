@@ -22,22 +22,18 @@ export class MenuComponent implements OnInit {
       },
       {
         label: 'Productos', 
-        icon: 'pi pi-fw pi-calendar'
-        },
+        icon: 'pi pi-fw pi-calendar',
+        routerLink: 'products'
+      },
       {
         label: 'Carrito', 
         icon: 'pi pi-fw pi-shopping-cart',
         routerLink: 'cart'
       },
-      // {
-      //   label: 'Perfil', 
-      //   icon: 'pi pi-fw pi-user',
-      //   routerLink: 'profile'
-      // },
       {
         label: 'Iniciar Sesión', 
         icon: 'pi pi-fw pi-key',
-        routerLink: ''
+        routerLink: 'login'
       }
   ];
 

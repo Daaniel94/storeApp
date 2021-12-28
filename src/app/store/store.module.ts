@@ -6,17 +6,22 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { SharedModule } from '../shared/shared.module';
-
+import { ProductsComponent } from './pages/products/products.component';
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
     HomeComponent,
     CartComponent,
     ProfileComponent,
-    LoginComponent
+    LoginComponent,
+    ProductsComponent
   ],
   imports: [
+    BrowserAnimationsModule,
     CommonModule,
+    FormsModule,
     PrimeNgModule,
     SharedModule
   ]

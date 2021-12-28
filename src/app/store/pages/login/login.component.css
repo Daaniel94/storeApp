@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-center{
+    margin-top: 2rem;
+    width: 75%;
+}
+
+.center-form{
+    justify-content: center;
+    align-items: center;
+}
+
+.input-b{
+    margin-bottom: 1rem;
+}

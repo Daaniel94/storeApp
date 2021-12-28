@@ -4,12 +4,17 @@ import { HomeComponent } from './store/pages/home/home.component';
 import { CartComponent } from './store/pages/cart/cart.component';
 import { ProfileComponent } from './store/pages/profile/profile.component';
 import { LoginComponent } from './store/pages/login/login.component';
+import { ProductsComponent } from './store/pages/products/products.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
     pathMatch: 'full'
+  },
+  {
+    path: 'products',
+    component: ProductsComponent,
   },
   {
     path: 'cart',
